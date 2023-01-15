@@ -1,0 +1,26 @@
+{
+  "name": "vuesourcecode",
+  "version": "1.0.0",
+  "description": "vue、vuex、vueRouter相关源码学习",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilthon/vueSourceCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilthon/vueSourceCode/issues"
+  },
+  "homepage": "https://github.com/kilthon/vueSourceCode#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
