@@ -23,11 +23,13 @@
                             ISBN:'ABC123',
                             name:'回马枪'
                         }
-                    }
+                    },
+                    hobby:['eat','drink',{a:1}]
                 }
             }
         })
-        console.log(vm)
+        vm.hobby.shift('1')
+        vm.hobby.unshift({a:1})
     </script>
 </body>
 </html>
